@@ -1,11 +1,11 @@
 <!--! Commands -->
 
-1 ) if you wanna see the list of commands you can use with ts files, you can hit this command -> tsc -h
-2 ) the command of run ts file -> tsc fileName
-3 ) the command of run ts file in watch mode -> tsc -w fileName
-4 ) to create tsConfig file -> tsc --init
-5 ) if you wanna compiled the whole project, not specific file -> tsc
-6 ) if you wanna compiled the whole project but in watch mode, not specific file -> tsc -w
+<if you wanna see the list of commands you can use with ts files, you can hit this command -> tsc -h>
+2 ) <the command of run ts file -> tsc fileName>
+3 ) <the command of run ts file in watch mode -> tsc -w fileName>
+4 ) <to create tsConfig file -> tsc --init>
+5 ) <if you wanna compiled the whole project, not specific file -> tsc>
+6 ) <if you wanna compiled the whole project but in watch mode, not specific file -> tsc -w>
 
 ===============================================================================================
 
