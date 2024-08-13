@@ -12,7 +12,7 @@
 1 ) dist -> distrution folder <the folder where ts code compiled to js code>
 -> originally the ts project was in the <src folder> , after we run the project there's a copy from the project created in the <dist folder> but in js.
 
-#### Statically Types> vs Dynamically Types
+## Statically Types> vs Dynamically Types
 
 - Statically Types languages like [Rust, C, C++]
 - variables types are static, once you declare it you can't change it
@@ -25,7 +25,7 @@
 - Type checking at Execution time
 - Error can be detected after Execution time
 
-#### Type Annotations Or Signature
+### Type Annotations Or Signature
 
 - Indicate the date type of the variable
 - Indicate the date type of the Functions input/output
