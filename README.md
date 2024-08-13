@@ -11,13 +11,17 @@
 
 ## _Statically Types vs Dynamically Types_
 
-- **Statically Types languages like [Rust, C, C++]**
+### _Statically Types_
+
+- **Languages like [Rust, C, C++]**
 - **variables types are static, once you declare it you can't change it**
 - **Type of A variable is known at compile time "Do type checkin at compile time"**
 - **Have better performance at run-time due to not nedding to check types dynamically**
 - **Error detected earlier**
 
-- **Dynamically Types languages like [Php , Python, Javascript]**
+### _Dynamically Types_
+
+- **Languages like [Php , Python, Javascript]**
 - **variables types are dynamic, you can always change it**
 - **Type checking at Execution time**
 - **Error can be detected after Execution time**
