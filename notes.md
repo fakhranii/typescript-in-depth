@@ -1,4 +1,4 @@
-#### Commands
+## Commands
 
 - if you wanna see the list of commands you can use with ts files, you can hit this command -> tsc -h
 - the command of run ts file -> tsc fileName
@@ -7,12 +7,16 @@
 - if you wanna compiled the whole project, not specific file -> tsc
 - if you wanna compiled the whole project but in watch mode, not specific file -> tsc -w
 
-#### Shortcuts
+---
 
-1 ) dist -> distrution folder <the folder where ts code compiled to js code>
--> originally the ts project was in the <src folder> , after we run the project there's a copy from the project created in the <dist folder> but in js.
+## Shortcuts
 
-## Statically Types> vs Dynamically Types
+1 ) dist -> distrution folder the folder where ts code compiled to js code
+- originally the ts project was in the src folder , after we run the project there's a copy from the project created in the dist folder but in js.
+
+---
+
+## Statically Types vs Dynamically Types
 
 - Statically Types languages like [Rust, C, C++]
 - variables types are static, once you declare it you can't change it
@@ -25,7 +29,9 @@
 - Type checking at Execution time
 - Error can be detected after Execution time
 
-### Type Annotations Or Signature
+---
+
+## Type Annotations Or Signature
 
 - Indicate the date type of the variable
 - Indicate the date type of the Functions input/output
