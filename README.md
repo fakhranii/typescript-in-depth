@@ -40,6 +40,8 @@
 
 - **I can give a shortcut to the types and use it ➡ `type st = string` and use `st` instead of `string`.**
 - **this method in case if I write the data type names many times and I wanna minimize letters as much as I can**
+- **Also I can create an object and assign many types on it like ➡ `type userInfoTypes = {name: string, age: number, worked: boolean}` and use `userInfoTypes` as datatype set for passing it into the function**
+- **Depend on the last method, After createing an object has userInfoTypes, I can add additional type like ➡ `type last = userInfoTypes & {married : boolean}`**
 
 ---
 
