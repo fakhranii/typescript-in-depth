@@ -51,7 +51,7 @@
 
 ## _Rarely Used Data Types_
 
-### **Tuple**
+### _Tuple_
 
 - **Is another sort of `array` type.**
 - **most used in `ReactJs`.**
@@ -60,14 +60,14 @@
 - **`For example ✔` ➡ `let article : [number, string, boolean] = [11, "title", true]`.**
 - **Also I can add `readonly`, ➡ `let article : readonly [number, string, boolean] = [11, "title", true]` , Therefore He can't add anything to it just read.**
 
-### **Void**
+### _Void_
 
 - **⚠ We use it with function will return nothing ⚠**
 - **Even if i wrote `console.log()` and it already printed a message, This is not a return value so it's void value.**
 - **If i wrote just `retutn;` it's void value.**
 - **Function in `JS` that not return a value will show undefined - And undefined In not void.**
 
-### **Never**
+### _Never_
 
 - **Return type never returns.**
 - **The function doesn't have a normal completion, the type of this function should be ➡ `never type`.**
