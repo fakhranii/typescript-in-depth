@@ -58,14 +58,16 @@
 
 ### **Void**
 
-- **We use it with function will return nothing, Even if i wrote `console.log()` and it printed a message, This is not a return value**
+- **⚠ We use it with function will return nothing ⚠**
+- **Even if i wrote `console.log()` and it already printed a message, This is not a return value so it's void value**
+- **If i wrote just `retutn;` it's void value**
 - **Function in `JS` that not return a value will show undefined - And undefined In not void**
 
 ### **Never**
 
 - **Return type never returns**
-- **The function doesn't have a normal completion**
-- **It throws an `Error` Or Never finishes running at all "infinite loop"**
+- **The function doesn't have a normal completion, the type of this function should be ➡ `never type`**
+- **It throws an `Error` Or Never finishes running at all "infinite loop", All these cases are ➡ `never type`**
 
 ---
 
