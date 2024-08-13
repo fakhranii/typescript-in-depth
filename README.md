@@ -45,6 +45,19 @@
 
 ---
 
+## _Rarely Used Data Types_
+
+### **Tuple**
+
+- **Is another sort of `array` type**
+- **most used in `ReactJs`**
+- **We know exactly how many elements it contains**
+- **We know which types it contains at specific positions**
+- **`For example ✔` ➡ `let article : [number, string, boolean] = [11, "title", true]`**
+- **Also I can add `readonly`, ➡ `let `article` : readonly [number, string, boolean] = [11, "title", true]` , Therefore He can't add anything to it just read**
+
+---
+
 ## _Shortcuts names_
 
 - **src ➡ Source folder - where we have our ts project**
