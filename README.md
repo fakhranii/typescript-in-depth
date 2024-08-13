@@ -54,7 +54,18 @@
 - **We know exactly how many elements it contains**
 - **We know which types it contains at specific positions**
 - **`For example ✔` ➡ `let article : [number, string, boolean] = [11, "title", true]`**
-- **Also I can add `readonly`, ➡ `let `article` : readonly [number, string, boolean] = [11, "title", true]` , Therefore He can't add anything to it just read**
+- **Also I can add `readonly`, ➡ `let article : readonly [number, string, boolean] = [11, "title", true]` , Therefore He can't add anything to it just read**
+
+### **Void**
+
+- **We use it with function will return nothing, Even if i write `**console.log()**` and it print a message**
+- **Function in `JS` that not return a value will show undefined - And undefined In not void**
+
+### **Never**
+
+- **Return type never returns**
+- **The function doesn't have a normal completion**
+- **It throws an `Error` Or Never finishes running at all "infinite loop"**
 
 ---
 
