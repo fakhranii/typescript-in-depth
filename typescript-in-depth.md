@@ -9,13 +9,6 @@
 
 ---
 
-## _Shortcuts_
-
-- **src -> Source folder - where we have our ts project**
-- **dist -> Distrution folder - where we have a js copy from src**
-
----
-
 ## _Statically Types vs Dynamically Types_
 
 - **Statically Types languages like [Rust, C, C++]**
@@ -40,3 +33,10 @@
 - **Why we use it ? to force the type checking**
 - **Is it mandatory ? No it's not mandatory**
 - **What happen if we did'nt use it ? compiler will guess the type depend on the value of the variable**
+
+## _Shortcuts_
+
+- **src ➡ Source folder - where we have our ts project**
+- **dist ➡ Distrution folder - where we have a js copy from src**
+
+---
