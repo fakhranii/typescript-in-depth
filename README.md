@@ -58,7 +58,7 @@
 
 ### **Void**
 
-- **We use it with function will return nothing, Even if i write `**console.log()**` and it print a message**
+- **We use it with function will return nothing, Even if i wrote `console.log()` and it printed a message, This is not a return value**
 - **Function in `JS` that not return a value will show undefined - And undefined In not void**
 
 ### **Never**
