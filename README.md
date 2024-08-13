@@ -34,7 +34,16 @@
 - **Is it mandatory ? No it's not mandatory**
 - **What happen if we did'nt use it ? compiler will guess the type depend on the value of the variable**
 
-## _Shortcuts_
+---
+
+## _Data Alias_
+
+- **I can give a shortcut to the types and use it ➡ `type st = string` and use `st` instead of `string`.**
+- **this method in case if I write the data type names many times and I wanna minimize letters as much as I can**
+
+---
+
+## _Shortcuts names_
 
 - **src ➡ Source folder - where we have our ts project**
 - **dist ➡ Distrution folder - where we have a js copy from src**
