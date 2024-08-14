@@ -9,6 +9,18 @@
 
 ---
 
+## _Type Annotations Or Signature_
+
+- **Indicate the data type of the variable.**
+- **Indicate the data type of the Functions input/output.**
+- **Ojects, etc.**
+
+- **Why we use it ? `to force the type checking`.**
+- **Is it mandatory ? `No it's not mandatory`.**
+- **What happen if we did'nt use it ? `compiler will guess the type depend on the value of the variable`.**
+
+---
+
 ## _Statically Types vs Dynamically Types_
 
 ### _Statically Types_
@@ -28,28 +40,23 @@
 
 ---
 
-## _Type Annotations Or Signature_
+## _Data Types_
 
-- **Indicate the date type of the variable.**
-- **Indicate the date type of the Functions input/output.**
-- **Ojects, etc.**
+### _Enums_
 
-- **Why we use it ? to force the type checking.**
-- **Is it mandatory ? No it's not mandatory.**
-- **What happen if we did'nt use it ? compiler will guess the type depend on the value of the variable.**
-
----
-
-## _Data Alias_
-
-- **I can give a shortcut to the types and use it ➡ `type st = string` and use `st` instead of `string`.**
-- **this method in case if I write the data type names many times and I wanna minimize letters as much as I can.**
-- **Also I can create an object and assign many types on it like ➡ `type userInfoTypes = {name: string, age: number, worked: boolean}` and use `userInfoTypes` as datatype set for passing it into the function.**
-- **Depend on the last method, After createing an object has userInfoTypes, I can add additional type like ➡ `type last = userInfoTypes & {married : boolean}`.**
-
----
-
-## _Rarely Used Data Types_
+- **Enums ➡ Enumerations.**
+- **Allow us to declare `a set of named constants`.**
+- **Used for logical grouping collection of constants `Collection of related values`.**
+- **Enum can refer to other enum.**
+- **Enum can refer to same enum.**
+- **Enum can have calculations.**
+- **Enum can have functions result as its value.**
+- **It organize your code.**
+- **By default enums are number-based, first element is 0.**
+- **There's a numeric enums.**
+- **There's a string-based enums.**
+- **There's heterogeneous enums [string + number] .**
+- **You can declare an enum by ➡ `enum level {easy = 10, medium = 15 , hard = 20 }`, you can add value to each key or just use the default values like this ➡ `enum level { easy, medium, hard }`.**
 
 ### _Tuple_
 
@@ -72,6 +79,15 @@
 - **Return type never returns.**
 - **The function doesn't have a normal completion, the type of this function should be ➡ `never type`.**
 - **It throws an `Error` Or Never finishes running at all "infinite loop", All these cases are ➡ `never type`.**
+
+---
+
+## _Data Alias_
+
+- **I can give a shortcut to the types and use it ➡ `type st = string` and use `st` instead of `string`.**
+- **this method in case if I write the data type names many times and I wanna minimize letters as much as I can.**
+- **Also I can create an object and assign many types on it like ➡ `type userInfoTypes = {name: string, age: number, worked: boolean}` and use `userInfoTypes` as datatype set for passing it into the function.**
+- **Depend on the last method, After createing an object has userInfoTypes, I can add additional type like ➡ `type last = userInfoTypes & {married : boolean}`.**
 
 ---
 
