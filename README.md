@@ -80,6 +80,17 @@
 - **The function doesn't have a normal completion, the type of this function should be ➡ `never type`.**
 - **It throws an `Error` Or Never finishes running at all "infinite loop", All these cases are ➡ `never type`.**
 
+### _Union_
+
+- **The `|` symbol is used to create the union ➡ `OR`.**
+
+### _Intersection_
+
+- **Is a type that combines several types into one.**
+- **The `&` symbol us used to create an Intersection.**
+
+- **`If a union is an "OR", then an Intersection is an and`**
+
 ---
 
 ## _Data Alias_
@@ -90,6 +101,15 @@
 - **Depend on the last method, After createing an object has userInfoTypes, I can add additional type like ➡ `type last = userInfoTypes & {married : boolean}`.**
 
 ---
+
+## _Interface_
+
+- **Serve like types.**
+- **Interface describes the shape of an object.**
+- **It defines the syntax to follow.**
+
+- **Use with [ object, function ].**
+- **Use readonly and optional operator.**
 
 ## _Shortcuts names_
 
