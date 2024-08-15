@@ -111,6 +111,46 @@
 - **Use with [ object, function ].**
 - **Use readonly and optional operator.**
 
+---
+
+## _OOP_
+
+### _Abstract Classes & Members_
+
+- **You can define an abstract class by write keyword `abstract` before the class name like this ➡ `abstract className { }`.**
+- **We can't create an instance of an abstract class, `All what you can do is inherit from it`.**
+- **We also have `abstract methods`, which means you must implement these methods in all subclasses of the abstract class, And you can define `abstract method` by write the keyword `abstract` before the method name.**
+
+### _Class Implements Interface_
+
+- **How to implement specific interface while we creating the class ? `This means that all elements in the interface must be implemented in the class, and you're free to add additional properties that don't exist in the interface`.**
+
+### _Static Members_
+
+- **Static members are the `properties & methods` that belong only to class itself, not to the `objects` that we created from the `class`.**
+- **Don't use "name, length, call"**
+
+### _Get And Set Accessors_
+
+- **`Get And Set Accessors` are `functions` start with `[ set | get ]` help me get data from `private property` Or set value to `private property` ➡ `get funcName(): string { returm this.username}` Or `set funcName(value: string) { this.username = value}`.**
+
+### _Data Access Modifiers & Parameters Properties_
+
+#### _Public_
+
+- **All members of a class is typescript are public.**
+- **All public members can accessed anywhere without any restrictions.**
+
+#### _Private_
+
+- **Members are visible only to that class and are not accessible outside the class.**
+
+#### _Protected_
+
+- **Same like `private` but can be accessed within the same class and its subClasses.**
+
+---
+
 ## _Shortcuts names_
 
 - **src ➡ Source folder - where we have our ts project.**
