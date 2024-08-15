@@ -115,11 +115,23 @@
 
 ## _OOP_
 
+### _Polymorphism & Method Override_
+
+#### _Polymorphism_
+
+- **Classes have the same methods but different implementations.**
+- **.**
+
+#### _Method Override_
+
+- **.**
+
 ### _Abstract Classes & Members_
 
 - **You can define an abstract class by write keyword `abstract` before the class name like this ➡ `abstract className { }`.**
 - **We can't create an instance of an abstract class, `All what you can do is inherit from it`.**
 - **We also have `abstract methods`, which means you must implement these methods in all subclasses of the abstract class, And you can define `abstract method` by write the keyword `abstract` before the method name.**
+- **You can't write any code in an `abstract method` within an `abstract class`, you can only define the method.**
 
 ### _Class Implements Interface_
 
@@ -150,6 +162,19 @@
 - **Same like `private` but can be accessed within the same class and its subClasses.**
 
 ---
+
+## _Generics_
+
+- **Help write a reusable code.**
+- **Allowto pass type as a parameter to another type.**
+- **You will be able to deal with multiple types without using `any` type.**
+
+### _We can create_
+
+- **Generic classes.**
+- **Generic functions.**
+- **Generic methods.**
+- **Generic interfaces.**
 
 ## _Shortcuts names_
 
